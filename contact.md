@@ -4,8 +4,9 @@ I'm currently open to new opportunities in AI Engineering and Python Backend dev
 ---
 
 * **Email:** [mathewsaju210@gmail.com](mailto:mathewsaju210@gmail.com)
-* **GitHub:** [github.com/mathewsaju](https://github.com/mathewsaju)
+* **GitHub:** [github.com/Mathew005](https://github.com/Mathew005)
 * **LinkedIn:** [linkedin.com/in/mathewsaju](https://linkedin.com/in/mathewsaju)
+* **Website:** [mathewsaju.com](http://mathewsaju.com)
 
 ---
 

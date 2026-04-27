@@ -40,3 +40,4 @@ Expertise in Generative AI, Machine Learning, and Data Analysis. I specialize in
   Vellore Institute of Technology (VIT)
 - **Bachelor of Computer Applications (BCA)**  
   SCMS School of Technology And Management (SSTM)
+[View my projects ➔](#projects.md)

@@ -31,4 +31,4 @@ The platform was built with **React** and **TypeScript** to ensure a maintainabl
 ## Results & Impact
 CFC successfully modularized the complex process of fest management, providing a "one-stop shop" for both organizers and students.
 
-[View on GitHub](https://github.com) | [Back to Projects](#projects.md)
+[View on GitHub](https://github.com/Mathew005) | [Back to Projects](#projects.md)
