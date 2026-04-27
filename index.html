@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio</title>
+
+  <!-- Marked.js for Markdown parsing -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- reCAPTCHA v3 -->
+  <script src="https://www.google.com/recaptcha/api.js?render=6LcXb8wsAAAAALLwckmKEAYzFAudmaSpf0URzffP"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Top navigation bar -->
+<nav id="topbar">
+  <button id="toc-toggle" onclick="toggleTOC()" aria-label="Toggle navigation">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square">
+      <line x1="3" y1="6"  x2="21" y2="6"/>
+      <line x1="3" y1="12" x2="21" y2="12"/>
+      <line x1="3" y1="18" x2="21" y2="18"/>
+    </svg>
+    Menu
+  </button>
+  <span id="page-title">Loading...</span>
+</nav>
+
+<!-- Sidebar -->
+<aside id="toc-sidebar">
+  <ul id="toc-list"></ul>
+</aside>
+<div id="toc-backdrop" onclick="closeSidebar()"></div>
+
+<!-- Main content -->
+<main id="content"></main>
+
+<script src="app.js"></script>
+</body>
+</html>
