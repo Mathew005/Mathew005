@@ -254,6 +254,22 @@ body {
   text-decoration: none !important;
   color: var(--text) !important;
   box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.5); /* Heavy grounding shadow */
+  overflow: hidden;
+}
+
+.card-img {
+  width: calc(100% + 48px);
+  height: 180px;
+  object-fit: cover;
+  margin: -24px -24px 20px -24px !important;
+  border-bottom: 2px solid var(--border);
+  filter: grayscale(10%) contrast(110%);
+  transition: all 0.2s;
+}
+
+.project-card:hover .card-img {
+  filter: grayscale(0%) contrast(100%);
+  transform: scale(1.02);
 }
 
 .project-card:hover {

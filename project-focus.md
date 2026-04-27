@@ -1,6 +1,8 @@
 # Project Focus: LinkForge
 
 ## Overview
+![LinkForge Mockup](assets/linkforge_mockup_1777275950001.png)
+
 **LinkForge** is a modern, cross-platform desktop application designed to simplify the creation and management of file system links (Symbolic Links, Hard Links, and Junctions) for both Windows and Linux users.
 
 ---
