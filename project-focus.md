@@ -1,34 +1,28 @@
-# Case Study: College Fest Central (CFC)
+# Project Focus: LinkForge
 
 ## Overview
-**College Fest Central (CFC)** is a unified platform designed to streamline the organization and participation in college festivals. It provides organizers with tools for event creation and analytics, while offering participants a seamless registration and discovery experience.
+**LinkForge** is a modern, cross-platform desktop application designed to simplify the creation and management of file system links (Symbolic Links, Hard Links, and Junctions) for both Windows and Linux users.
+
+---
+
+## Technical Highlights
+
+### 1. Cross-Platform Core
+The application dynamically detects the host operating system to handle the fundamental differences between Windows (`mklink`) and Linux (`ln -s`) link creation commands, ensuring a seamless experience across environments.
+
+### 2. Modern GUI Architecture
+Built using **CustomTkinter**, LinkForge provides a responsive, dark-themed interface that bridges the gap between old-school utility and modern aesthetics.
+
+### 3. Admin & Security Awareness
+Implemented logic to detect and request administrative or root privileges, which are often required for symbolic link creation on modern operating systems.
 
 ---
 
 ## Key Features
-
-### 1. Unified Event Management
-Organizers can create, manage, and track multiple events from a single dashboard. Features include attendee tracking, performance analytics, and dynamic scheduling.
-
-### 2. Personalized Discovery
-Implemented a custom **Recommendation Engine** that suggests events to users based on their interests, bookmarks, and past registrations.
-
-### 3. Integrated Analytics
-Provided downloadable insight reports for organizers to understand attendee demographics and event popularity, helping refine future festivals.
+- **Multiple Link Types**: Supports junctions, symbolic links (files/folders), and hard links.
+- **History Panel**: Tracks every link created for easy reference and management.
+- **Responsive UI**: Includes tooltips, status updates, and a high-contrast theme for better accessibility.
 
 ---
 
-## Technical Challenges
-
-### Real-time Interaction
-Ensuring a smooth user experience across registration and status tracking required optimized state management and efficient API handling.
-
-### Scalability
-The platform was built with **React** and **TypeScript** to ensure a maintainable and scalable codebase that can handle high traffic during festival seasons.
-
----
-
-## Results & Impact
-CFC successfully modularized the complex process of fest management, providing a "one-stop shop" for both organizers and students.
-
-[View on GitHub](https://github.com/Mathew005) | [Back to Projects](#projects.md)
+[View Repo on GitHub](https://github.com/Mathew005/LinkForge) | [Back to Projects](#projects.md)
